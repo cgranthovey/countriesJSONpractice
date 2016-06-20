@@ -1,0 +1,6 @@
+framework module Pods_countriesJsonPractice {
+  umbrella header "Pods-countriesJsonPractice-umbrella.h"
+
+  export *
+  module * { export * }
+}

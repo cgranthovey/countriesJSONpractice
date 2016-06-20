@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7117F512EA0FA05C46B21A18 /* Pods_countriesJsonPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B37C9D6ED33F5C387373FBA /* Pods_countriesJsonPractice.framework */; };
 		A100E7411D12FA3400E0FE97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100E7401D12FA3400E0FE97 /* AppDelegate.swift */; };
 		A100E7431D12FA3400E0FE97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100E7421D12FA3400E0FE97 /* ViewController.swift */; };
 		A100E7461D12FA3400E0FE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A100E7441D12FA3400E0FE97 /* Main.storyboard */; };
 		A100E7481D12FA3400E0FE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A100E7471D12FA3400E0FE97 /* Assets.xcassets */; };
 		A100E74B1D12FA3400E0FE97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A100E7491D12FA3400E0FE97 /* LaunchScreen.storyboard */; };
+		A100E7571D12FDBD00E0FE97 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A100E7531D12FDBD00E0FE97 /* NotoSans-Bold.ttf */; };
+		A100E7581D12FDBD00E0FE97 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A100E7541D12FDBD00E0FE97 /* NotoSans-BoldItalic.ttf */; };
+		A100E7591D12FDBD00E0FE97 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A100E7551D12FDBD00E0FE97 /* NotoSans-Italic.ttf */; };
+		A100E75A1D12FDBD00E0FE97 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A100E7561D12FDBD00E0FE97 /* NotoSans-Regular.ttf */; };
+		A100E75C1D1301B700E0FE97 /* codeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100E75B1D1301B700E0FE97 /* codeConverter.swift */; };
+		A100E7611D13074500E0FE97 /* countryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100E7601D13074500E0FE97 /* countryCell.swift */; };
+		A100E7631D130CBC00E0FE97 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100E7621D130CBC00E0FE97 /* Country.swift */; };
+		A100E7661D131E5E00E0FE97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100E7651D131E5E00E0FE97 /* Constants.swift */; };
+		A1777DD91D14B73C00242E2D /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1777DD81D14B73C00242E2D /* MaterialView.swift */; };
+		A1777DDB1D1508AD00242E2D /* CountryDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1777DDA1D1508AD00242E2D /* CountryDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B37C9D6ED33F5C387373FBA /* Pods_countriesJsonPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_countriesJsonPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB5F99DA3ACB1F43B1752C6 /* Pods-countriesJsonPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-countriesJsonPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-countriesJsonPractice/Pods-countriesJsonPractice.release.xcconfig"; sourceTree = "<group>"; };
 		A100E73D1D12FA3400E0FE97 /* countriesJsonPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countriesJsonPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A100E7401D12FA3400E0FE97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A100E7421D12FA3400E0FE97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,17 @@
 		A100E7471D12FA3400E0FE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A100E74A1D12FA3400E0FE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A100E74C1D12FA3400E0FE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A100E7531D12FDBD00E0FE97 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		A100E7541D12FDBD00E0FE97 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A100E7551D12FDBD00E0FE97 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		A100E7561D12FDBD00E0FE97 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		A100E75B1D1301B700E0FE97 /* codeConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = codeConverter.swift; sourceTree = "<group>"; };
+		A100E7601D13074500E0FE97 /* countryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = countryCell.swift; sourceTree = "<group>"; };
+		A100E7621D130CBC00E0FE97 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		A100E7651D131E5E00E0FE97 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A1777DD81D14B73C00242E2D /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		A1777DDA1D1508AD00242E2D /* CountryDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDetailVC.swift; sourceTree = "<group>"; };
+		D173AFD52EFD98580F967690 /* Pods-countriesJsonPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-countriesJsonPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-countriesJsonPractice/Pods-countriesJsonPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7117F512EA0FA05C46B21A18 /* Pods_countriesJsonPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38A56FC2E18F9FF053CE8292 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D173AFD52EFD98580F967690 /* Pods-countriesJsonPractice.debug.xcconfig */,
+				6EB5F99DA3ACB1F43B1752C6 /* Pods-countriesJsonPractice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		409F71C3A5EE84F14C4E47EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B37C9D6ED33F5C387373FBA /* Pods_countriesJsonPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A100E7341D12FA3400E0FE97 = {
 			isa = PBXGroup;
 			children = (
 				A100E73F1D12FA3400E0FE97 /* countriesJsonPractice */,
 				A100E73E1D12FA3400E0FE97 /* Products */,
+				38A56FC2E18F9FF053CE8292 /* Pods */,
+				409F71C3A5EE84F14C4E47EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +98,64 @@
 		A100E73F1D12FA3400E0FE97 /* countriesJsonPractice */ = {
 			isa = PBXGroup;
 			children = (
+				A100E75D1D1306E900E0FE97 /* Model */,
+				A100E75E1D1306EF00E0FE97 /* View */,
+				A100E75F1D1306F300E0FE97 /* Controller */,
+				A100E7641D131E4C00E0FE97 /* Utility */,
+				A100E7521D12FDA000E0FE97 /* Resources */,
 				A100E7401D12FA3400E0FE97 /* AppDelegate.swift */,
-				A100E7421D12FA3400E0FE97 /* ViewController.swift */,
 				A100E7441D12FA3400E0FE97 /* Main.storyboard */,
 				A100E7471D12FA3400E0FE97 /* Assets.xcassets */,
 				A100E7491D12FA3400E0FE97 /* LaunchScreen.storyboard */,
 				A100E74C1D12FA3400E0FE97 /* Info.plist */,
 			);
 			path = countriesJsonPractice;
+			sourceTree = "<group>";
+		};
+		A100E7521D12FDA000E0FE97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A100E7531D12FDBD00E0FE97 /* NotoSans-Bold.ttf */,
+				A100E7541D12FDBD00E0FE97 /* NotoSans-BoldItalic.ttf */,
+				A100E7551D12FDBD00E0FE97 /* NotoSans-Italic.ttf */,
+				A100E7561D12FDBD00E0FE97 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A100E75D1D1306E900E0FE97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A100E7621D130CBC00E0FE97 /* Country.swift */,
+				A100E75B1D1301B700E0FE97 /* codeConverter.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A100E75E1D1306EF00E0FE97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A100E7601D13074500E0FE97 /* countryCell.swift */,
+				A1777DD81D14B73C00242E2D /* MaterialView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A100E75F1D1306F300E0FE97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A100E7421D12FA3400E0FE97 /* ViewController.swift */,
+				A1777DDA1D1508AD00242E2D /* CountryDetailVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A100E7641D131E4C00E0FE97 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A100E7651D131E5E00E0FE97 /* Constants.swift */,
+			);
+			name = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A100E74F1D12FA3400E0FE97 /* Build configuration list for PBXNativeTarget "countriesJsonPractice" */;
 			buildPhases = (
+				ED4A65EF2ECF41BD890581EF /* [CP] Check Pods Manifest.lock */,
 				A100E7391D12FA3400E0FE97 /* Sources */,
 				A100E73A1D12FA3400E0FE97 /* Frameworks */,
 				A100E73B1D12FA3400E0FE97 /* Resources */,
+				04F9AE479B5DA1AD32240B46 /* [CP] Embed Pods Frameworks */,
+				1545B001AD4240D508B4B3BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,21 +219,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A100E7571D12FDBD00E0FE97 /* NotoSans-Bold.ttf in Resources */,
 				A100E74B1D12FA3400E0FE97 /* LaunchScreen.storyboard in Resources */,
+				A100E7581D12FDBD00E0FE97 /* NotoSans-BoldItalic.ttf in Resources */,
+				A100E7591D12FDBD00E0FE97 /* NotoSans-Italic.ttf in Resources */,
 				A100E7481D12FA3400E0FE97 /* Assets.xcassets in Resources */,
 				A100E7461D12FA3400E0FE97 /* Main.storyboard in Resources */,
+				A100E75A1D12FDBD00E0FE97 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04F9AE479B5DA1AD32240B46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-countriesJsonPractice/Pods-countriesJsonPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1545B001AD4240D508B4B3BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-countriesJsonPractice/Pods-countriesJsonPractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED4A65EF2ECF41BD890581EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A100E7391D12FA3400E0FE97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1777DDB1D1508AD00242E2D /* CountryDetailVC.swift in Sources */,
+				A100E7611D13074500E0FE97 /* countryCell.swift in Sources */,
 				A100E7431D12FA3400E0FE97 /* ViewController.swift in Sources */,
+				A100E75C1D1301B700E0FE97 /* codeConverter.swift in Sources */,
+				A100E7631D130CBC00E0FE97 /* Country.swift in Sources */,
 				A100E7411D12FA3400E0FE97 /* AppDelegate.swift in Sources */,
+				A1777DD91D14B73C00242E2D /* MaterialView.swift in Sources */,
+				A100E7661D131E5E00E0FE97 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +404,7 @@
 		};
 		A100E7501D12FA3400E0FE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D173AFD52EFD98580F967690 /* Pods-countriesJsonPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = countriesJsonPractice/Info.plist;
@@ -260,6 +416,7 @@
 		};
 		A100E7511D12FA3400E0FE97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB5F99DA3ACB1F43B1752C6 /* Pods-countriesJsonPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = countriesJsonPractice/Info.plist;
@@ -288,6 +445,7 @@
 				A100E7511D12FA3400E0FE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
